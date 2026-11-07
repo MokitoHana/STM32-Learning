@@ -1,0 +1,35 @@
+﻿# 编译产物（Keil MDK / CubeIDE 都会生成）
+Objects/
+Listings/
+DebugConfig/
+Debug/
+Release/
+*.o
+*.d
+*.crf
+*.dep
+*.axf
+*.hex
+*.bin
+*.map
+*.lnp
+*.lst
+*.iex
+*.sct
+*.htm
+*.build_log.htm
+
+# Keil 个人界面布局
+*.uvguix.*
+*.uvoptx
+
+# 临时与系统文件
+*.tmp
+*.log
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# 编辑器
+.vscode/
+.idea/
